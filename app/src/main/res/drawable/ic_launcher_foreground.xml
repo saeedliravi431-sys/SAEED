@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Motor Outer Stator Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="4"
+        android:pathData="M 54, 26 A 28,28 0 1,0 54, 82 A 28,28 0 1,0 54, 26" />
+    <!-- Stator Teeth / Poles (12S representation) -->
+    <path
+        android:fillColor="#FFB703"
+        android:pathData="M52,22 h4 v7 h-4 z
+                          M52,79 h4 v7 h-4 z
+                          M22,52 h7 v4 h-7 z
+                          M79,52 h7 v4 h-7 z
+                          M31,31 l3,3 l-3,3 l-3,-3 z
+                          M74,74 l3,3 l-3,3 l-3,-3 z
+                          M74,31 l3,-3 l3,3 l-3,3 z
+                          M31,74 l3,-3 l3,3 l-3,3 z" />
+    <!-- Motor Inner Core Circle -->
+    <path
+        android:fillColor="#132A55"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2"
+        android:pathData="M 54, 34 A 20,20 0 1,0 54, 74 A 20,20 0 1,0 54, 34" />
+    <!-- Dynamic Lightning / Power Vector -->
+    <path
+        android:fillColor="#00F0FF"
+        android:pathData="M56,38 L43,53 L51,53 L47,70 L64,51 L56,51 Z" />
+</vector>
